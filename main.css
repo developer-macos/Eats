@@ -1,0 +1,104 @@
+.ul-menu {
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.home-link {
+  color: #FA4A0C;
+  text-decoration: none;
+  margin-left: 455px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.product {
+  color: #252B42;
+  text-decoration: none;
+  line-height: 28px;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  margin-left: 104px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.logo {
+  margin-left: 90px;
+  margin-bottom: 40pxh;
+}
+
+.main-first-backgr {
+  background-image: url(/img/backgr.png);
+  background-size: cover;
+  height: 1000px;
+}
+
+.restaurant-app-p {
+  height: Fixed 36px;
+  width: Fixed 196px;
+  padding-top: 60px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #F6F6F6;
+}
+
+.h1-restaurant-why {
+  width: Fixed 799px;
+  height: Fixed 151.11px;
+  padding-top: 9px;
+  text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+}
+
+.p-order-hunger {
+  width: Fixed 368px;
+  height: Fixed 19px;
+  padding-top: 5px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #F6F6F6;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.button-delivery {
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.2) 20%;
+  color: white;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  size: 356px;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FA4A0C;
+  text-align: center;
+  margin-left: 1000px;
+}
+
+.button-menu {
+  border: none;
+  border-width: 1px;
+  background-color: none;
+  border-radius: 30px;
+  background-color: white;
+  width: 236px;
+  height: 58px;
+  margin-left: 300px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 1px solid #FFFFFF;
+}
+
+.button {
+  border: none;
+}/*# sourceMappingURL=main.css.map */

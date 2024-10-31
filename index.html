@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Eats</title>
+</head>
+
+<body>
+    <header>
+        <ul class="ul-menu">
+            <li class="logo">
+                <a href="index.html"><img src="./img/Logo.png" alt="" width="150" height="65"></a>
+
+            </li>
+            <li class="home-link-li">
+                <a class="home-link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="product" href="#products">Product</a>
+            </li>
+            <li>
+                <a class="product" href="#faq">Faq</a>
+            </li>
+            <li>
+                <a class="product" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="main-first-backgr">
+            <p class="restaurant-app-p">Restaurant app</p>
+            <h1 class="h1-restaurant-why">Why stay hungry when <br>
+                you can order form Eats</h1>
+            <p class="p-order-hunger">Order in exchange for hunger</p>
+            <button type="button" class="button-delivery">Delivery</button>
+<!-- master button.png --><img
+    src="data:image/png;base64,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"
+    width="236"
+    height="68"
+    alt="master button.png"
+></button>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>
