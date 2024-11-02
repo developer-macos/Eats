@@ -105,3 +105,62 @@ border: none;
 .button{
     border: none;
 }
+
+
+.how-app{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+}
+
+.img-svg{
+    margin-left: 174px;
+    margin-top: 70px;
+}
+
+.create-acc{
+    color: $home-link-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-in-section-create{
+    margin-left: 771px;
+    margin-top: -393px;
+}
+
+.info-create{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.create-extra-info{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+.shop-svg{
+    margin-left: 1600px;
+    margin-top: -300px;
+}
+
+
+.section-shop{
+margin-left: -1093px;
+margin-top: 600px;
+}
+
+
+.order-section{
+    background-image: url("/img/order-backgr.png");
+    background-size: cover;
+    height: 709px;
+    margin-top: 190px;
+}
